@@ -14,14 +14,7 @@
 		"node": "22"
 	},
 	"browserslist": [
-		"Chrome > 0 and last 2.5 years",
-		"ChromeAndroid > 0 and last 2.5 years",
-		"Edge > 0 and last 2.5 years",
-		"Firefox > 0 and last 2.5 years",
-		"FirefoxAndroid > 0 and last 2.5 years",
-		"Safari > 0 and last 2.5 years",
-		"iOS > 0 and last 2.5 years",
-		"not dead"
+		"extends browserslist-config-baseline"
 	],
 	"dependencies": {
 		"focus-trap": "^7.6.5",
@@ -33,6 +26,7 @@
 		"@11ty/eleventy-plugin-rss": "^2.0.4",
 		"@shikijs/markdown-it": "^3.5.0",
 		"@sindresorhus/slugify": "^2.2.1",
+		"browserslist-config-baseline": "^0.4.0",
 		"editorconfig-checker": "^6.0.1",
 		"esbuild": "^0.25.5",
 		"eslint": "^9.28.0",
@@ -44,7 +38,6 @@
 		"pretty-data": "^0.40.0",
 		"remove-markdown": "^0.6.2",
 		"stylelint": "^16.20.0",
-		"stylelint-order": "^7.0.0",
 		"w3c-html-validator": "^1.8.3"
 	}
 }
